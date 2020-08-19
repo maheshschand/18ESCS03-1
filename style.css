@@ -1,0 +1,235 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 15%;
+}
+
+nav {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: #2323e0;
+    margin-top: 0;
+    box-shadow: 2px 2px #00000044;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 17px;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+nav li:hover {
+    cursor: pointer;
+    background-color: #4848cc;
+    transition: 0.2s;
+}
+
+main {
+    min-height: 70vh;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+main h1 {
+    text-align: center;
+    color: #222222;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main h2 {
+    padding-right: 40px;
+    padding-left: 1100px;
+}
+
+figure {
+    margin: 0 20px;
+    width: 200px;
+}
+
+#figure1 {
+    float: left;
+    width: 430px;
+}
+
+.section_body p {
+    padding-right: 40px;
+    padding-left: 1070px;
+}
+
+.section_body:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#band_image2 img {
+    margin: 0px 20px 10px 0;
+    border: #222222 solid 2px;
+    box-shadow: 3px 3px #00000066;
+    text-align: center;
+}
+
+figcaption {
+    display: table-row;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+
+#figure2 {
+    float: right;
+    text-align: right;
+    height: 100%;
+    width: 404px;
+    padding-right: 3px;
+}
+
+#band_image2 figcaption {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+img, figcaption {
+    display: table-row;
+    vertical-align: bottom;
+}
+
+#menu_list ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol li {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    font-size: 26px;
+    top: 0;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#video_section {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    background-color: #2323e0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    box-shadow: -2px -2px #00000044;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+form {
+  margin-top: 10px;
+}
+
+#contact {
+    padding-top: 96px;
+    padding-bottom: 102px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+  border: 1px solid #333;
+}

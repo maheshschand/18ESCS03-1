@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- sets title displayed in tab head -->
+        <title>
+            Menu
+        </title>
+        <!-- links the stylesheet to the HTML document -->
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navigation bar -->
+       <!-- navigation bar -->
+        <nav>
+            <!-- list for navigation bar -->
+            <ul>
+                <!-- link to homepage -->
+                <a href="index.html">
+                    <li>
+                        <u>Home</u>
+                    </li>
+                </a>
+                <!-- link to Menu page -->
+                <a href="menu.html">
+                    <li>
+                        Menu
+                    </li>
+                </a>
+                <!-- link to details page -->
+                <a href="details.html">
+                    <li>
+                        Details
+                    </li>
+                </a>
+                <!-- link to items page -->
+                <a href="contact.html">
+                    <li>
+                        Contact
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        
+        <section id="contact">
+         <div class="row section-head">
+            <div class="two columns header-col">
+               <h1><span>Get In Touch.</span></h1>
+            </div>
+            <div class="ten columns">
+                  <p class="lead">Got something to say? I will be very happy to hear from you.
+                  </p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					      <fieldset>
+
+                  <div>
+                    <label for="contactName">Name <span class="required">*</span></label>
+                    <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+                    <label for="contactEmail">Email <span class="required">*</span></label>
+                    <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+                    <label for="contactSubject">Subject</label>
+                    <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                    <label for="contactMessage">Message <span class="required">*</span></label>
+                    <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                    <button class="submit">Submit</button>                     
+                  </div>
+					      </fieldset>
+              </div>
+         </div>
+        </section>
+    </body>
+</html>
